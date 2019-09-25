@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6302FC02233AA906000D2425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302FC01233AA906000D2425 /* AppDelegate.swift */; };
+		6302FC04233AA906000D2425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302FC03233AA906000D2425 /* ViewController.swift */; };
+		6302FC07233AA906000D2425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6302FC05233AA906000D2425 /* Main.storyboard */; };
+		6302FC09233AA907000D2425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6302FC08233AA907000D2425 /* Assets.xcassets */; };
+		6302FC0C233AA907000D2425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6302FC0A233AA907000D2425 /* LaunchScreen.storyboard */; };
+		6302FC17233AA907000D2425 /* supritaLightProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302FC16233AA907000D2425 /* supritaLightProjectTests.swift */; };
+		6302FC22233AA907000D2425 /* supritaLightProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302FC21233AA907000D2425 /* supritaLightProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6302FC13233AA907000D2425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6302FBF6233AA905000D2425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6302FBFD233AA906000D2425;
+			remoteInfo = supritaLightProject;
+		};
+		6302FC1E233AA907000D2425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6302FBF6233AA905000D2425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6302FBFD233AA906000D2425;
+			remoteInfo = supritaLightProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6302FBFE233AA906000D2425 /* supritaLightProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = supritaLightProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6302FC01233AA906000D2425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6302FC03233AA906000D2425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6302FC06233AA906000D2425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6302FC08233AA907000D2425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6302FC0B233AA907000D2425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6302FC0D233AA907000D2425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6302FC12233AA907000D2425 /* supritaLightProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = supritaLightProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6302FC16233AA907000D2425 /* supritaLightProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supritaLightProjectTests.swift; sourceTree = "<group>"; };
+		6302FC18233AA907000D2425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6302FC1D233AA907000D2425 /* supritaLightProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = supritaLightProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6302FC21233AA907000D2425 /* supritaLightProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = supritaLightProjectUITests.swift; sourceTree = "<group>"; };
+		6302FC23233AA907000D2425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6302FBFB233AA906000D2425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6302FC0F233AA907000D2425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6302FC1A233AA907000D2425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6302FBF5233AA905000D2425 = {
+			isa = PBXGroup;
+			children = (
+				6302FC00233AA906000D2425 /* supritaLightProject */,
+				6302FC15233AA907000D2425 /* supritaLightProjectTests */,
+				6302FC20233AA907000D2425 /* supritaLightProjectUITests */,
+				6302FBFF233AA906000D2425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6302FBFF233AA906000D2425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6302FBFE233AA906000D2425 /* supritaLightProject.app */,
+				6302FC12233AA907000D2425 /* supritaLightProjectTests.xctest */,
+				6302FC1D233AA907000D2425 /* supritaLightProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6302FC00233AA906000D2425 /* supritaLightProject */ = {
+			isa = PBXGroup;
+			children = (
+				6302FC01233AA906000D2425 /* AppDelegate.swift */,
+				6302FC03233AA906000D2425 /* ViewController.swift */,
+				6302FC05233AA906000D2425 /* Main.storyboard */,
+				6302FC08233AA907000D2425 /* Assets.xcassets */,
+				6302FC0A233AA907000D2425 /* LaunchScreen.storyboard */,
+				6302FC0D233AA907000D2425 /* Info.plist */,
+			);
+			path = supritaLightProject;
+			sourceTree = "<group>";
+		};
+		6302FC15233AA907000D2425 /* supritaLightProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				6302FC16233AA907000D2425 /* supritaLightProjectTests.swift */,
+				6302FC18233AA907000D2425 /* Info.plist */,
+			);
+			path = supritaLightProjectTests;
+			sourceTree = "<group>";
+		};
+		6302FC20233AA907000D2425 /* supritaLightProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6302FC21233AA907000D2425 /* supritaLightProjectUITests.swift */,
+				6302FC23233AA907000D2425 /* Info.plist */,
+			);
+			path = supritaLightProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6302FBFD233AA906000D2425 /* supritaLightProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6302FC26233AA907000D2425 /* Build configuration list for PBXNativeTarget "supritaLightProject" */;
+			buildPhases = (
+				6302FBFA233AA906000D2425 /* Sources */,
+				6302FBFB233AA906000D2425 /* Frameworks */,
+				6302FBFC233AA906000D2425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = supritaLightProject;
+			productName = supritaLightProject;
+			productReference = 6302FBFE233AA906000D2425 /* supritaLightProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6302FC11233AA907000D2425 /* supritaLightProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6302FC29233AA907000D2425 /* Build configuration list for PBXNativeTarget "supritaLightProjectTests" */;
+			buildPhases = (
+				6302FC0E233AA907000D2425 /* Sources */,
+				6302FC0F233AA907000D2425 /* Frameworks */,
+				6302FC10233AA907000D2425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6302FC14233AA907000D2425 /* PBXTargetDependency */,
+			);
+			name = supritaLightProjectTests;
+			productName = supritaLightProjectTests;
+			productReference = 6302FC12233AA907000D2425 /* supritaLightProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6302FC1C233AA907000D2425 /* supritaLightProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6302FC2C233AA907000D2425 /* Build configuration list for PBXNativeTarget "supritaLightProjectUITests" */;
+			buildPhases = (
+				6302FC19233AA907000D2425 /* Sources */,
+				6302FC1A233AA907000D2425 /* Frameworks */,
+				6302FC1B233AA907000D2425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6302FC1F233AA907000D2425 /* PBXTargetDependency */,
+			);
+			name = supritaLightProjectUITests;
+			productName = supritaLightProjectUITests;
+			productReference = 6302FC1D233AA907000D2425 /* supritaLightProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6302FBF6233AA905000D2425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Suprita Ashok";
+				TargetAttributes = {
+					6302FBFD233AA906000D2425 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6302FC11233AA907000D2425 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6302FBFD233AA906000D2425;
+					};
+					6302FC1C233AA907000D2425 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6302FBFD233AA906000D2425;
+					};
+				};
+			};
+			buildConfigurationList = 6302FBF9233AA905000D2425 /* Build configuration list for PBXProject "supritaLightProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6302FBF5233AA905000D2425;
+			productRefGroup = 6302FBFF233AA906000D2425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6302FBFD233AA906000D2425 /* supritaLightProject */,
+				6302FC11233AA907000D2425 /* supritaLightProjectTests */,
+				6302FC1C233AA907000D2425 /* supritaLightProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6302FBFC233AA906000D2425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6302FC0C233AA907000D2425 /* LaunchScreen.storyboard in Resources */,
+				6302FC09233AA907000D2425 /* Assets.xcassets in Resources */,
+				6302FC07233AA906000D2425 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6302FC10233AA907000D2425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6302FC1B233AA907000D2425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6302FBFA233AA906000D2425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6302FC04233AA906000D2425 /* ViewController.swift in Sources */,
+				6302FC02233AA906000D2425 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6302FC0E233AA907000D2425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6302FC17233AA907000D2425 /* supritaLightProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6302FC19233AA907000D2425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6302FC22233AA907000D2425 /* supritaLightProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6302FC14233AA907000D2425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6302FBFD233AA906000D2425 /* supritaLightProject */;
+			targetProxy = 6302FC13233AA907000D2425 /* PBXContainerItemProxy */;
+		};
+		6302FC1F233AA907000D2425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6302FBFD233AA906000D2425 /* supritaLightProject */;
+			targetProxy = 6302FC1E233AA907000D2425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6302FC05233AA906000D2425 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6302FC06233AA906000D2425 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6302FC0A233AA907000D2425 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6302FC0B233AA907000D2425 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6302FC24233AA907000D2425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6302FC25233AA907000D2425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6302FC27233AA907000D2425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = supritaLightProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sxa9037.supritaLightProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6302FC28233AA907000D2425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = supritaLightProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sxa9037.supritaLightProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6302FC2A233AA907000D2425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = supritaLightProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sxa9037.supritaLightProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/supritaLightProject.app/supritaLightProject";
+			};
+			name = Debug;
+		};
+		6302FC2B233AA907000D2425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = supritaLightProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sxa9037.supritaLightProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/supritaLightProject.app/supritaLightProject";
+			};
+			name = Release;
+		};
+		6302FC2D233AA907000D2425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = supritaLightProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sxa9037.supritaLightProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = supritaLightProject;
+			};
+			name = Debug;
+		};
+		6302FC2E233AA907000D2425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = supritaLightProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sxa9037.supritaLightProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = supritaLightProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6302FBF9233AA905000D2425 /* Build configuration list for PBXProject "supritaLightProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6302FC24233AA907000D2425 /* Debug */,
+				6302FC25233AA907000D2425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6302FC26233AA907000D2425 /* Build configuration list for PBXNativeTarget "supritaLightProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6302FC27233AA907000D2425 /* Debug */,
+				6302FC28233AA907000D2425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6302FC29233AA907000D2425 /* Build configuration list for PBXNativeTarget "supritaLightProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6302FC2A233AA907000D2425 /* Debug */,
+				6302FC2B233AA907000D2425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6302FC2C233AA907000D2425 /* Build configuration list for PBXNativeTarget "supritaLightProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6302FC2D233AA907000D2425 /* Debug */,
+				6302FC2E233AA907000D2425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6302FBF6233AA905000D2425 /* Project object */;
+}
